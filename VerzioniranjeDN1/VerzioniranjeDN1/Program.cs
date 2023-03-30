@@ -100,11 +100,57 @@ namespace VerzioniranjeDN1
                     D[i] = (A[i] >> k) & 1;
                 }
 
-                // TODO - Implementacija Counting Sorta
+                CountingSort(D, A);
             }
 
             return A;
         }
+
+        // COUNTING SORT
+        public static void CountingSort(int[] D, int[] A)
+        {
+            int[] C = new int[2];
+            foreach (int d in D)
+            {
+                C[d]++;
+            }
+            C[1] += C[0];
+
+            int[] B = new int[A.Length];
+            for (int i = A.Length - 1; i >= 0; i--)
+            {
+                int d = D[i];
+                int j = C[d] - 1;
+                B[j] = A[i];
+                C[d]--;
+            }
+
+            // Popravimo vrstni red števil v polju A glede na indekse sortiranih bitov
+            for (int i = 0; i < A.Length; i++)
+            {
+                A[i] = B[i];
+            }
+        }
+
+        // IZPIS POLJA - IZHODNA DATOTEKA
+        public static void zapisivDatoteko(int[] A)
+        {
+            try
+            {
+                using (StreamWriter sw = new StreamWriter("out.txt"))
+                {
+                    foreach (int stevilo in A)
+                    {
+                        sw.Write(stevilo + " ");
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Napaka pri zapisu v datoteko: " + e.Message);
+            }
+        }
+
 
         // GLAVNI PROGRAM
         static void Main(string[] args)
@@ -120,6 +166,10 @@ namespace VerzioniranjeDN1
                 //izpisPolja(A, "Neurejeno polje");
 
                 RadixSort(A);
+
+                //izpisPolja(A, "Urejeno polje");
+
+                zapisivDatoteko(A); // zapisi v datoteko out.txt
 
             }
             else
