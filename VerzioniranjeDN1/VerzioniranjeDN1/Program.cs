@@ -76,6 +76,36 @@ namespace VerzioniranjeDN1
             return A;
         }
 
+        // IZPIS POLJA - KONZOLA
+        public static void izpisPolja(int[] polje, string imePolja)
+        {
+            Console.Write(imePolja + ":");
+            for (int i = 0; i < polje.Length; i++)
+            {
+                Console.Write(" " + polje[i].ToString());
+            }
+            Console.WriteLine("");
+        }
+
+        // RADIX SORT
+        public static int[] RadixSort(int[] A)
+        {
+            // k predstavlja index bita v 8 bitnem stevilu
+            for (int k = 0; k < 8; k++)
+            {
+                // Vzamemo k-ti bit od vsakega števila v polju A in ga shranimo v polje D
+                int[] D = new int[A.Length];
+                for (int i = 0; i < A.Length; i++)
+                {
+                    D[i] = (A[i] >> k) & 1;
+                }
+
+                // TODO - Implementacija Counting Sorta
+            }
+
+            return A;
+        }
+
         // GLAVNI PROGRAM
         static void Main(string[] args)
         {
@@ -86,6 +116,10 @@ namespace VerzioniranjeDN1
             {
                 // OK
                 int[] A = preberiDatoteko(imeDatoteke);
+
+                //izpisPolja(A, "Neurejeno polje");
+
+                RadixSort(A);
 
             }
             else
