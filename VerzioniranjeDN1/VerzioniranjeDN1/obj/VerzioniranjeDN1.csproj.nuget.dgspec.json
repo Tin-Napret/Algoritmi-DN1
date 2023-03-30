@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\napre\\OneDrive\\Namizje\\Faks\\2. letnik\\2. Semester\\Sistemska administracija\\Naloga 02 - Verzioniranje kode\\VerzioniranjeDN1\\VerzioniranjeDN1\\VerzioniranjeDN1.csproj": {}
+    "C:\\Users\\napre\\OneDrive\\Namizje\\Faks\\2. letnik\\2. Semester\\Sistemska administracija\\Naloga 02 - Verzioniranje kode\\GIT\\VerzioniranjeDN1\\VerzioniranjeDN1\\VerzioniranjeDN1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\napre\\OneDrive\\Namizje\\Faks\\2. letnik\\2. Semester\\Sistemska administracija\\Naloga 02 - Verzioniranje kode\\VerzioniranjeDN1\\VerzioniranjeDN1\\VerzioniranjeDN1.csproj": {
+    "C:\\Users\\napre\\OneDrive\\Namizje\\Faks\\2. letnik\\2. Semester\\Sistemska administracija\\Naloga 02 - Verzioniranje kode\\GIT\\VerzioniranjeDN1\\VerzioniranjeDN1\\VerzioniranjeDN1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\napre\\OneDrive\\Namizje\\Faks\\2. letnik\\2. Semester\\Sistemska administracija\\Naloga 02 - Verzioniranje kode\\VerzioniranjeDN1\\VerzioniranjeDN1\\VerzioniranjeDN1.csproj",
+        "projectUniqueName": "C:\\Users\\napre\\OneDrive\\Namizje\\Faks\\2. letnik\\2. Semester\\Sistemska administracija\\Naloga 02 - Verzioniranje kode\\GIT\\VerzioniranjeDN1\\VerzioniranjeDN1\\VerzioniranjeDN1.csproj",
         "projectName": "VerzioniranjeDN1",
-        "projectPath": "C:\\Users\\napre\\OneDrive\\Namizje\\Faks\\2. letnik\\2. Semester\\Sistemska administracija\\Naloga 02 - Verzioniranje kode\\VerzioniranjeDN1\\VerzioniranjeDN1\\VerzioniranjeDN1.csproj",
+        "projectPath": "C:\\Users\\napre\\OneDrive\\Namizje\\Faks\\2. letnik\\2. Semester\\Sistemska administracija\\Naloga 02 - Verzioniranje kode\\GIT\\VerzioniranjeDN1\\VerzioniranjeDN1\\VerzioniranjeDN1.csproj",
         "packagesPath": "C:\\Users\\napre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\napre\\OneDrive\\Namizje\\Faks\\2. letnik\\2. Semester\\Sistemska administracija\\Naloga 02 - Verzioniranje kode\\VerzioniranjeDN1\\VerzioniranjeDN1\\obj\\",
+        "outputPath": "C:\\Users\\napre\\OneDrive\\Namizje\\Faks\\2. letnik\\2. Semester\\Sistemska administracija\\Naloga 02 - Verzioniranje kode\\GIT\\VerzioniranjeDN1\\VerzioniranjeDN1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\napre\\AppData\\Roaming\\NuGet\\NuGet.Config",
